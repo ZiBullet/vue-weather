@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: var(--theme);
+    transition: .2s;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        &-thumb {
+            background: var(--blue);
+        }
+
+        &-track {
+            background: var(--grey);
+        }
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+button, input {
+    cursor: pointer;
+
+    outline: none;
+    border: none;
+    background: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}

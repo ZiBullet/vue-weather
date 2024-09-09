@@ -1,0 +1,10 @@
+.wrap-enter-active,
+.wrap-leave-active {
+    transition: 0.2s;
+}
+
+.wrap-enter-from,
+.wrap-leave-to {
+    transform: translateY(40px);
+    opacity: 0;
+}
